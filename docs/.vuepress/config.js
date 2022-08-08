@@ -10,12 +10,12 @@ module.exports = {
     type: 'blog',
     nav: [
       { text: 'Home', link: '/', icon: 'reco-home' },
-      { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
       { text: 'About', link: '/about/', icon: 'reco-account' },
+      { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
     ],
     blogConfig: {
       tag: {
-        location: 2, // 在导航栏菜单中所占的位置，默认3
+        location: 3, // 在导航栏菜单中所占的位置，默认3
         text: 'Tag' // 默认 “标签”
       },
       socialLinks: [     // 信息栏展示社交信息
