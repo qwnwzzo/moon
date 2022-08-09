@@ -61,5 +61,12 @@ module.exports = {
       //   }
       // ]
     ],
+    vssueConfig: {
+      platform: 'github',
+      owner: 'qwnwzzo',
+      repo: 'moon',
+      clientId: 'acb113c83a910f890584',
+      clientSecret: 'fc020467eac8644831bb6b5cdc223dbc8feda4dd',
+    }
   }
 }
