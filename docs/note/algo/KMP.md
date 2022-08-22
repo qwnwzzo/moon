@@ -1,7 +1,7 @@
 ---
 title: KMP
 tags:
- - algorithms kmp
+ - kmp
 categories:
  - algorithms
 date: 2022-08-19
