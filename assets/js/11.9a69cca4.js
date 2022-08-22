@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[11],{418:function(t,s,i){"use strict";i.r(s);var n={},u=i(2),a=Object(u.a)(n,(function(){this._self._c;return this._m(0)}),[function(){var t=this._self._c;return t("div",{staticClass:"about"},[t("div",[this._v("I am Kris Li")])])}],!1,null,null,null);s.default=a.exports}}]);
