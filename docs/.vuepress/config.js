@@ -6,6 +6,31 @@ module.exports = {
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
   ],
   base: '/moon/',
+  plugins: [
+    [
+      "md-enhance",
+      {
+        // 添加选项卡支持
+        tabs: true,
+        // 启用代码块分组
+        codetabs: true,
+        // 启用下角标功能
+        sub: true,
+        // 启用上角标
+        sup: true,
+        // 启用自定义对齐
+        align: true,
+        // 开启标记
+        mark: true,
+        // 启用任务列表
+        tasklist: true,
+        // 启用图片标记
+        imageMark: true,
+        // 启用图片大小
+        imageSize: true,
+      },
+    ],
+  ],
   themeConfig: {
     type: 'blog',
     nav: [
