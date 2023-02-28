@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <div>I am Kris Li</div>
+    <div>I am Jiaqiang Li</div>
   </div>
 </template>
 
