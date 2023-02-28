@@ -1,7 +1,8 @@
 ---
-title: 背包问题
+title: Knapsack Problems
 tags:
  - DP
+ - Knapsack
 categories:
  - algorithms
 date: 2022-12-12
