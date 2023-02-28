@@ -1,3 +1,8 @@
 ---
-https://qwnwzzo.github.io/moon/
+home: true
+bgImage: /home-bg.jpeg
+bgImageStyle: {
+  height: '400px'
+}
+isShowTitleInHome: false
 ---
