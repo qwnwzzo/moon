@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://qwnwzzo.github.io/moon/sitemap.xml
