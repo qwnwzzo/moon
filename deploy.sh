@@ -4,10 +4,10 @@
 set -e
 
 # 生成静态文件
-yarn build
+hugo
 
 # 进入生成的文件夹
-cd docs/.vuepress/dist
+cd public
 
 git init
 git add -A
@@ -16,4 +16,4 @@ git commit -m 'feat: deploy'
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:qwnwzzo/moon.git master:gh-pages
 
-cd -
+cd ../
