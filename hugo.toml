@@ -76,7 +76,7 @@ tocopen = false
 
   [[params.socialIcons]]
   name = "github"
-  url = "https://github.com/"
+  url = "https://github.com/qwnwzzo"
 
 [params.analytics.google]
 SiteVerificationTag = "XYZabc"
@@ -106,6 +106,11 @@ SiteVerificationTag = "XYZabc"
   minMatchCharLength = 0
   limit = 10
   keys = [ "title", "permalink", "summary", "content" ]
+
+[[menu.main]]
+name = "home"
+url = "/"
+weight = 5
 
 [[menu.main]]
 identifier = "categories"
