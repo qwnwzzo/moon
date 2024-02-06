@@ -22,7 +22,7 @@ description = "MOON"
 keywords = [ "Blog", "Portfolio", "PaperMod", "MOON", "Algorithm" ]
 author = "ljq"
 images = [ "<link or path of image for opengraph, twitter-cards>" ]
-DateFormat = "January 1, 2007"
+DateFormat = "2006-01-02"
 defaultTheme = "auto"
 disableThemeToggle = false
 ShowReadingTime = true
@@ -40,6 +40,9 @@ hidemeta = false
 hideSummary = false
 showtoc = false
 tocopen = false
+
+  [params.busuanzi]
+  enable = true
 
   [params.assets]
   favicon = "<link / abs url>"
@@ -93,7 +96,7 @@ SiteVerificationTag = "XYZabc"
   hiddenInSingle = true
 
   [params.editPost]
-  URL = "https://github.com/<path_to_repo>/content"
+  URL = "https://github.com/qwnwzzo/moon/blob/main/content"
   Text = "Suggest Changes"
   appendFilePath = true
 
@@ -136,6 +139,9 @@ weight = 40
 
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
+
+[markup.goldmark.renderer]
+unsafe = true
 
 [markup.highlight]
 noClasses = false
